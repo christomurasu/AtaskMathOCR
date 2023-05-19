@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38FDF3F570C49B0C13D5B16B /* Pods_AtaskMathOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BEABFEC028BF45E25BFCDD /* Pods_AtaskMathOCR.framework */; };
+		D95741AE2A0EBB1700C3FB4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95741AD2A0EBB1700C3FB4A /* AppDelegate.swift */; };
+		D95741B02A0EBB1700C3FB4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95741AF2A0EBB1700C3FB4A /* SceneDelegate.swift */; };
+		D95741B22A0EBB1700C3FB4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95741B12A0EBB1700C3FB4A /* ViewController.swift */; };
+		D95741B52A0EBB1700C3FB4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95741B32A0EBB1700C3FB4A /* Main.storyboard */; };
+		D95741B82A0EBB1700C3FB4A /* AtaskMathOCR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D95741B62A0EBB1700C3FB4A /* AtaskMathOCR.xcdatamodeld */; };
+		D95741BA2A0EBB1B00C3FB4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D95741B92A0EBB1B00C3FB4A /* Assets.xcassets */; };
+		D95741BD2A0EBB1B00C3FB4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95741BB2A0EBB1B00C3FB4A /* LaunchScreen.storyboard */; };
+		D95741C82A0EBB1B00C3FB4A /* AtaskMathOCRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95741C72A0EBB1B00C3FB4A /* AtaskMathOCRTests.swift */; };
+		D95741D22A0EBB1B00C3FB4A /* AtaskMathOCRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95741D12A0EBB1B00C3FB4A /* AtaskMathOCRUITests.swift */; };
+		D95741D42A0EBB1B00C3FB4A /* AtaskMathOCRUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95741D32A0EBB1B00C3FB4A /* AtaskMathOCRUITestsLaunchTests.swift */; };
+		D95741E62A0F8ACD00C3FB4A /* ViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95741E52A0F8ACD00C3FB4A /* ViewControllerViewModel.swift */; };
+		D95741E82A11478A00C3FB4A /* MathProblemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95741E72A11478A00C3FB4A /* MathProblemModel.swift */; };
+		D95741EB2A1149C200C3FB4A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95741EA2A1149C200C3FB4A /* StringExtension.swift */; };
+		D95741EF2A114E0900C3FB4A /* ProblemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95741ED2A114E0900C3FB4A /* ProblemTableViewCell.swift */; };
+		D95741F02A114E0900C3FB4A /* ProblemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D95741EE2A114E0900C3FB4A /* ProblemTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D95741C42A0EBB1B00C3FB4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D95741A22A0EBB1700C3FB4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D95741A92A0EBB1700C3FB4A;
+			remoteInfo = AtaskMathOCR;
+		};
+		D95741CE2A0EBB1B00C3FB4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D95741A22A0EBB1700C3FB4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D95741A92A0EBB1700C3FB4A;
+			remoteInfo = AtaskMathOCR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3599017970E54593EE311EEB /* Pods-AtaskMathOCR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtaskMathOCR.debug.xcconfig"; path = "Target Support Files/Pods-AtaskMathOCR/Pods-AtaskMathOCR.debug.xcconfig"; sourceTree = "<group>"; };
+		40BEABFEC028BF45E25BFCDD /* Pods_AtaskMathOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AtaskMathOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A771BD7E9A4C188C963ED7C0 /* Pods-AtaskMathOCR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtaskMathOCR.release.xcconfig"; path = "Target Support Files/Pods-AtaskMathOCR/Pods-AtaskMathOCR.release.xcconfig"; sourceTree = "<group>"; };
+		D95741AA2A0EBB1700C3FB4A /* AtaskMathOCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtaskMathOCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95741AD2A0EBB1700C3FB4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D95741AF2A0EBB1700C3FB4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D95741B12A0EBB1700C3FB4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D95741B42A0EBB1700C3FB4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D95741B72A0EBB1700C3FB4A /* AtaskMathOCR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AtaskMathOCR.xcdatamodel; sourceTree = "<group>"; };
+		D95741B92A0EBB1B00C3FB4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D95741BC2A0EBB1B00C3FB4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D95741BE2A0EBB1B00C3FB4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D95741C32A0EBB1B00C3FB4A /* AtaskMathOCRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtaskMathOCRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95741C72A0EBB1B00C3FB4A /* AtaskMathOCRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtaskMathOCRTests.swift; sourceTree = "<group>"; };
+		D95741CD2A0EBB1B00C3FB4A /* AtaskMathOCRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtaskMathOCRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95741D12A0EBB1B00C3FB4A /* AtaskMathOCRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtaskMathOCRUITests.swift; sourceTree = "<group>"; };
+		D95741D32A0EBB1B00C3FB4A /* AtaskMathOCRUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtaskMathOCRUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D95741E52A0F8ACD00C3FB4A /* ViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerViewModel.swift; sourceTree = "<group>"; };
+		D95741E72A11478A00C3FB4A /* MathProblemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathProblemModel.swift; sourceTree = "<group>"; };
+		D95741EA2A1149C200C3FB4A /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		D95741ED2A114E0900C3FB4A /* ProblemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemTableViewCell.swift; sourceTree = "<group>"; };
+		D95741EE2A114E0900C3FB4A /* ProblemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProblemTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D95741A72A0EBB1700C3FB4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38FDF3F570C49B0C13D5B16B /* Pods_AtaskMathOCR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95741C02A0EBB1B00C3FB4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95741CA2A0EBB1B00C3FB4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		015027B9B5971B8E9B6A0BD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3599017970E54593EE311EEB /* Pods-AtaskMathOCR.debug.xcconfig */,
+				A771BD7E9A4C188C963ED7C0 /* Pods-AtaskMathOCR.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB91C0D2D67FC3B8A9332ED5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40BEABFEC028BF45E25BFCDD /* Pods_AtaskMathOCR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D93F51902A14057500A63CF8 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D95741B62A0EBB1700C3FB4A /* AtaskMathOCR.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		D95741A12A0EBB1700C3FB4A = {
+			isa = PBXGroup;
+			children = (
+				D95741AC2A0EBB1700C3FB4A /* AtaskMathOCR */,
+				D95741C62A0EBB1B00C3FB4A /* AtaskMathOCRTests */,
+				D95741D02A0EBB1B00C3FB4A /* AtaskMathOCRUITests */,
+				D95741AB2A0EBB1700C3FB4A /* Products */,
+				015027B9B5971B8E9B6A0BD9 /* Pods */,
+				AB91C0D2D67FC3B8A9332ED5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D95741AB2A0EBB1700C3FB4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D95741AA2A0EBB1700C3FB4A /* AtaskMathOCR.app */,
+				D95741C32A0EBB1B00C3FB4A /* AtaskMathOCRTests.xctest */,
+				D95741CD2A0EBB1B00C3FB4A /* AtaskMathOCRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D95741AC2A0EBB1700C3FB4A /* AtaskMathOCR */ = {
+			isa = PBXGroup;
+			children = (
+				D95741E92A1149B600C3FB4A /* Utility */,
+				D95741E22A0F868D00C3FB4A /* Model */,
+				D95741E12A0F868300C3FB4A /* ViewModel */,
+				D95741E02A0F867E00C3FB4A /* View */,
+				D95741AD2A0EBB1700C3FB4A /* AppDelegate.swift */,
+				D95741AF2A0EBB1700C3FB4A /* SceneDelegate.swift */,
+				D95741B92A0EBB1B00C3FB4A /* Assets.xcassets */,
+				D95741BB2A0EBB1B00C3FB4A /* LaunchScreen.storyboard */,
+				D95741BE2A0EBB1B00C3FB4A /* Info.plist */,
+			);
+			path = AtaskMathOCR;
+			sourceTree = "<group>";
+		};
+		D95741C62A0EBB1B00C3FB4A /* AtaskMathOCRTests */ = {
+			isa = PBXGroup;
+			children = (
+				D95741C72A0EBB1B00C3FB4A /* AtaskMathOCRTests.swift */,
+			);
+			path = AtaskMathOCRTests;
+			sourceTree = "<group>";
+		};
+		D95741D02A0EBB1B00C3FB4A /* AtaskMathOCRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D95741D12A0EBB1B00C3FB4A /* AtaskMathOCRUITests.swift */,
+				D95741D32A0EBB1B00C3FB4A /* AtaskMathOCRUITestsLaunchTests.swift */,
+			);
+			path = AtaskMathOCRUITests;
+			sourceTree = "<group>";
+		};
+		D95741E02A0F867E00C3FB4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D95741EC2A114DE400C3FB4A /* Cell */,
+				D95741E42A0F869D00C3FB4A /* Storyboard */,
+				D95741E32A0F869300C3FB4A /* ViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D95741E12A0F868300C3FB4A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D95741E52A0F8ACD00C3FB4A /* ViewControllerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D95741E22A0F868D00C3FB4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D93F51902A14057500A63CF8 /* CoreData */,
+				D95741E72A11478A00C3FB4A /* MathProblemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D95741E32A0F869300C3FB4A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D95741B12A0EBB1700C3FB4A /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D95741E42A0F869D00C3FB4A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D95741B32A0EBB1700C3FB4A /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		D95741E92A1149B600C3FB4A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				D95741EA2A1149C200C3FB4A /* StringExtension.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		D95741EC2A114DE400C3FB4A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D95741ED2A114E0900C3FB4A /* ProblemTableViewCell.swift */,
+				D95741EE2A114E0900C3FB4A /* ProblemTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D95741A92A0EBB1700C3FB4A /* AtaskMathOCR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D95741D72A0EBB1B00C3FB4A /* Build configuration list for PBXNativeTarget "AtaskMathOCR" */;
+			buildPhases = (
+				9CA907E6E72811F843AB7E46 /* [CP] Check Pods Manifest.lock */,
+				D95741A62A0EBB1700C3FB4A /* Sources */,
+				D95741A72A0EBB1700C3FB4A /* Frameworks */,
+				D95741A82A0EBB1700C3FB4A /* Resources */,
+				8A738759407645DD1131CC44 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AtaskMathOCR;
+			productName = AtaskMathOCR;
+			productReference = D95741AA2A0EBB1700C3FB4A /* AtaskMathOCR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D95741C22A0EBB1B00C3FB4A /* AtaskMathOCRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D95741DA2A0EBB1B00C3FB4A /* Build configuration list for PBXNativeTarget "AtaskMathOCRTests" */;
+			buildPhases = (
+				D95741BF2A0EBB1B00C3FB4A /* Sources */,
+				D95741C02A0EBB1B00C3FB4A /* Frameworks */,
+				D95741C12A0EBB1B00C3FB4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D95741C52A0EBB1B00C3FB4A /* PBXTargetDependency */,
+			);
+			name = AtaskMathOCRTests;
+			productName = AtaskMathOCRTests;
+			productReference = D95741C32A0EBB1B00C3FB4A /* AtaskMathOCRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D95741CC2A0EBB1B00C3FB4A /* AtaskMathOCRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D95741DD2A0EBB1B00C3FB4A /* Build configuration list for PBXNativeTarget "AtaskMathOCRUITests" */;
+			buildPhases = (
+				D95741C92A0EBB1B00C3FB4A /* Sources */,
+				D95741CA2A0EBB1B00C3FB4A /* Frameworks */,
+				D95741CB2A0EBB1B00C3FB4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D95741CF2A0EBB1B00C3FB4A /* PBXTargetDependency */,
+			);
+			name = AtaskMathOCRUITests;
+			productName = AtaskMathOCRUITests;
+			productReference = D95741CD2A0EBB1B00C3FB4A /* AtaskMathOCRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D95741A22A0EBB1700C3FB4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D95741A92A0EBB1700C3FB4A = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					D95741C22A0EBB1B00C3FB4A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D95741A92A0EBB1700C3FB4A;
+					};
+					D95741CC2A0EBB1B00C3FB4A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D95741A92A0EBB1700C3FB4A;
+					};
+				};
+			};
+			buildConfigurationList = D95741A52A0EBB1700C3FB4A /* Build configuration list for PBXProject "AtaskMathOCR" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D95741A12A0EBB1700C3FB4A;
+			productRefGroup = D95741AB2A0EBB1700C3FB4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D95741A92A0EBB1700C3FB4A /* AtaskMathOCR */,
+				D95741C22A0EBB1B00C3FB4A /* AtaskMathOCRTests */,
+				D95741CC2A0EBB1B00C3FB4A /* AtaskMathOCRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D95741A82A0EBB1700C3FB4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95741BD2A0EBB1B00C3FB4A /* LaunchScreen.storyboard in Resources */,
+				D95741F02A114E0900C3FB4A /* ProblemTableViewCell.xib in Resources */,
+				D95741BA2A0EBB1B00C3FB4A /* Assets.xcassets in Resources */,
+				D95741B52A0EBB1700C3FB4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95741C12A0EBB1B00C3FB4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95741CB2A0EBB1B00C3FB4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A738759407645DD1131CC44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AtaskMathOCR/Pods-AtaskMathOCR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AtaskMathOCR/Pods-AtaskMathOCR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AtaskMathOCR/Pods-AtaskMathOCR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CA907E6E72811F843AB7E46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AtaskMathOCR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D95741A62A0EBB1700C3FB4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95741B22A0EBB1700C3FB4A /* ViewController.swift in Sources */,
+				D95741EF2A114E0900C3FB4A /* ProblemTableViewCell.swift in Sources */,
+				D95741EB2A1149C200C3FB4A /* StringExtension.swift in Sources */,
+				D95741AE2A0EBB1700C3FB4A /* AppDelegate.swift in Sources */,
+				D95741E62A0F8ACD00C3FB4A /* ViewControllerViewModel.swift in Sources */,
+				D95741B02A0EBB1700C3FB4A /* SceneDelegate.swift in Sources */,
+				D95741B82A0EBB1700C3FB4A /* AtaskMathOCR.xcdatamodeld in Sources */,
+				D95741E82A11478A00C3FB4A /* MathProblemModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95741BF2A0EBB1B00C3FB4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95741C82A0EBB1B00C3FB4A /* AtaskMathOCRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95741C92A0EBB1B00C3FB4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95741D42A0EBB1B00C3FB4A /* AtaskMathOCRUITestsLaunchTests.swift in Sources */,
+				D95741D22A0EBB1B00C3FB4A /* AtaskMathOCRUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D95741C52A0EBB1B00C3FB4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D95741A92A0EBB1700C3FB4A /* AtaskMathOCR */;
+			targetProxy = D95741C42A0EBB1B00C3FB4A /* PBXContainerItemProxy */;
+		};
+		D95741CF2A0EBB1B00C3FB4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D95741A92A0EBB1700C3FB4A /* AtaskMathOCR */;
+			targetProxy = D95741CE2A0EBB1B00C3FB4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D95741B32A0EBB1700C3FB4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D95741B42A0EBB1700C3FB4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D95741BB2A0EBB1B00C3FB4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D95741BC2A0EBB1B00C3FB4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D95741D52A0EBB1B00C3FB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D95741D62A0EBB1B00C3FB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D95741D82A0EBB1B00C3FB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3599017970E54593EE311EEB /* Pods-AtaskMathOCR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47SFYHGR49;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AtaskMathOCR/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = atask.mathocr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D95741D92A0EBB1B00C3FB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A771BD7E9A4C188C963ED7C0 /* Pods-AtaskMathOCR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47SFYHGR49;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AtaskMathOCR/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = atask.mathocr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D95741DB2A0EBB1B00C3FB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU5F8CUGQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sonnyTest.AtaskMathOCRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtaskMathOCR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AtaskMathOCR";
+			};
+			name = Debug;
+		};
+		D95741DC2A0EBB1B00C3FB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU5F8CUGQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sonnyTest.AtaskMathOCRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtaskMathOCR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AtaskMathOCR";
+			};
+			name = Release;
+		};
+		D95741DE2A0EBB1B00C3FB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU5F8CUGQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sonnyTest.AtaskMathOCRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AtaskMathOCR;
+			};
+			name = Debug;
+		};
+		D95741DF2A0EBB1B00C3FB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU5F8CUGQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sonnyTest.AtaskMathOCRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AtaskMathOCR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D95741A52A0EBB1700C3FB4A /* Build configuration list for PBXProject "AtaskMathOCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95741D52A0EBB1B00C3FB4A /* Debug */,
+				D95741D62A0EBB1B00C3FB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D95741D72A0EBB1B00C3FB4A /* Build configuration list for PBXNativeTarget "AtaskMathOCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95741D82A0EBB1B00C3FB4A /* Debug */,
+				D95741D92A0EBB1B00C3FB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D95741DA2A0EBB1B00C3FB4A /* Build configuration list for PBXNativeTarget "AtaskMathOCRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95741DB2A0EBB1B00C3FB4A /* Debug */,
+				D95741DC2A0EBB1B00C3FB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D95741DD2A0EBB1B00C3FB4A /* Build configuration list for PBXNativeTarget "AtaskMathOCRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95741DE2A0EBB1B00C3FB4A /* Debug */,
+				D95741DF2A0EBB1B00C3FB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D95741B62A0EBB1700C3FB4A /* AtaskMathOCR.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D95741B72A0EBB1700C3FB4A /* AtaskMathOCR.xcdatamodel */,
+			);
+			currentVersion = D95741B72A0EBB1700C3FB4A /* AtaskMathOCR.xcdatamodel */;
+			path = AtaskMathOCR.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D95741A22A0EBB1700C3FB4A /* Project object */;
+}
